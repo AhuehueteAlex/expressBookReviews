@@ -1,0 +1,2 @@
+curl -X PUT "http://localhost:5000/customer/auth/review/1?review=Excellent book" -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNzc0ODYyNDQzLCJleHAiOjE3NzQ4NjYwNDN9.GsvL08xHMIS2NPE9bU2n8UjT4JBuDm7KmDA0cX6G2LE"
+{"message":"Review added/updated successfully","reviews":{"testuser":"Excellent book"}}
